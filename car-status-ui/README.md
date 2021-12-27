@@ -1,64 +1,64 @@
 Rotas da API:
 
 URL padrão:
-  localhost:8080/api/
+  -localhost:8080/api/
 
 Pessoas:
   Salvar: 
-    pessoa/ (POST)
+    -pessoa/ (POST)
   Buscar por ID: 
-    pessoa/{id} (GET)
+    -pessoa/{id} (GET)
   Buscar todos: 
-    pessoa/ (GET)
+    -pessoa/ (GET)
   Editar: 
-    pessoa/{id} (PUT)
+    -pessoa/{id} (PUT)
   Deletar:
-    pessoa/{id} (DELETE)
+    -pessoa/{id} (DELETE)
 
  Mecanico:
   Salvar: 
-    mecanico/ (POST)
+    -mecanico/ (POST)
   Buscar por ID: 
-    mecanico/{id} (GET)
+    -mecanico/{id} (GET)
   Buscar todos: 
-    mecanico/ (GET)
+    -mecanico/ (GET)
   Editar: 
-    mecanico/{id} (PUT)
+    -mecanico/{id} (PUT)
   Deletar: 
-    mecanico/{id} (DELETE)
+    -mecanico/{id} (DELETE)
   
   Carro:
     Salvar: 
-      carro/ (POST)
+      -carro/ (POST)
     Buscar por ID: 
-      carro/{id} (GET)
+      -carro/{id} (GET)
     Buscar todos:
-      carro/ (GET)
+      -carro/ (GET)
     Editar:
-      carro/{id} (Put)
+      -carro/{id} (Put)
     Deletar:
-      carro/{id} (DELETE)
+      -carro/{id} (DELETE)
     Buscar todos por ID do dono:
-      carro/dono/{id}
+      -carro/dono/{id}
    
    Manutenção:
     Salvar: 
-      manutencao/ (POST)
+      -manutencao/ (POST)
     Buscar por ID: 
-      manutencao/{id} (GET)
+      -manutencao/{id} (GET)
     Buscar todos: 
-      manutencao/ (GET)
+      -manutencao/ (GET)
     Editar: 
-      manutencao/{id} (PUT)
+      -manutencao/{id} (PUT)
     Editar: 
-      manutencao/{id} (DELETE)
+      -manutencao/{id} (DELETE)
     Buscar por Id do cliente:
-      manutencao/cliente/{id}
+      -manutencao/cliente/{id}
     Buscar por Id do mecanico:
-      manutencao/mecanico/{id}
+      -manutencao/mecanico/{id}
     Iniciar:
-      manutencao/{id}/iniciar
+      -manutencao/{id}/iniciar
     Finalizar:
-      manutencao/{id}/finalizar
+      -manutencao/{id}/finalizar
     Cancelar:
-      manutencao/{id}/cancelar
+      -manutencao/{id}/cancelar
